@@ -8,8 +8,25 @@ namespace ScarpeCo.Repositories
     {
         private static List<Product> products = new List<Product>
         {
-            new Product { Id = 1, Name = "Scarpa A", Price = 49.99m, Description = "Scarpa A dettagliata", CoverImage = "cover1.jpg", AdditionalImage1 = "add1.jpg", AdditionalImage2 = "add2.jpg" },
-            new Product { Id = 2, Name = "Scarpa B", Price = 59.99m, Description = "Scarpa B dettagliata", CoverImage = "cover2.jpg", AdditionalImage1 = "add3.jpg", AdditionalImage2 = "add4.jpg" },
+            new Product
+            {
+                Id = 1, Name = "Jordan Retro 4", 
+                Price = 109.99m, 
+                Description = "Jordan Retro 4 White", 
+                CoverImage = "/images/Jordan.jpeg", 
+                AdditionalImage1 = "/images/Jordan.jpeg", 
+                AdditionalImage2 = "/images/Jordan4Retro.jpg"
+            },
+
+            new Product
+            { 
+                Id = 2, Name = "Air Jordan 1 MID ",
+                Price = 169.99m,
+                Description = "Air Jordan 1 MID Black&Red",
+                CoverImage = "/images/Jordan4Retro.jpg",
+                AdditionalImage1 = "/images/Jordan4Retro.jpg",
+                AdditionalImage2 = "/images/Jordan4Retro.jpg"
+            },
         };
 
         public static List<Product> GetAll() => products;
