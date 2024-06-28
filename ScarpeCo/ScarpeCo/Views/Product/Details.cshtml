@@ -10,8 +10,8 @@
     <p class="card-text">Price: @Model.Price.ToString("C")</p>
 
     <div class="additional-images">
-    <img src="@Model.AdditionalImage1" class="img-fluid product-image mb-2" alt="Additional Image 1" />
-    <img src="@Model.AdditionalImage2" class="img-fluid product-image" alt="Additional Image 2" />
+        <img src="@Model.AdditionalImage1" class="img-fluid product-image mb-2" alt="Additional Image 1" />
+        <img src="@Model.AdditionalImage2" class="img-fluid product-image" alt="Additional Image 2" />
     </div>
 
 </div>
@@ -19,9 +19,4 @@
     <a href="@Url.Action("Index", "Product")">Back to Products</a>
 </div>
 
-<style>
-    .additional-images img {
-        max-width: 100%;
-        margin: 10px 0;
-    }
-</style>
+
